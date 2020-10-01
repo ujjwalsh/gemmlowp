@@ -2,7 +2,9 @@ language: android
 
 os:
   - linux
-
+arch:
+  - amd64
+  - ppc64le
 sudo: false
 
 compiler:
